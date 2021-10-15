@@ -105,7 +105,7 @@ namespace Channel9Downloader
             this.label1.Font = new System.Drawing.Font("Segoe UI Variable Text Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(97, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(625, 43);
+            this.label1.Size = new System.Drawing.Size(774, 53);
             this.label1.TabIndex = 1;
             this.label1.Text = "Descargar contenido de Channel 9 MSDN";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -127,7 +127,7 @@ namespace Channel9Downloader
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(106, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(155, 15);
+            this.label2.Size = new System.Drawing.Size(186, 18);
             this.label2.TabIndex = 3;
             this.label2.Text = "URL del contenido o canal:";
             // 
@@ -138,7 +138,7 @@ namespace Channel9Downloader
             this.txtUrl.Location = new System.Drawing.Point(106, 92);
             this.txtUrl.Name = "txtUrl";
             this.txtUrl.PlaceholderText = "Example: https://s.ch9.ms/Series/Beginners-Series-to-Blazor/rss";
-            this.txtUrl.Size = new System.Drawing.Size(703, 23);
+            this.txtUrl.Size = new System.Drawing.Size(703, 27);
             this.txtUrl.TabIndex = 4;
             // 
             // btnLoadContent
@@ -174,7 +174,7 @@ namespace Channel9Downloader
             this.label4.Font = new System.Drawing.Font("Segoe UI Variable Display", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(177, 20);
+            this.label4.Size = new System.Drawing.Size(142, 20);
             this.label4.TabIndex = 18;
             this.label4.Text = "Listado de medios";
             // 
@@ -204,25 +204,26 @@ namespace Channel9Downloader
             // 
             // statusStrip1
             // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.stlbAction,
             this.stpbProgress});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 601);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 597);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(945, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(945, 26);
             this.statusStrip1.TabIndex = 15;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // stlbAction
             // 
             this.stlbAction.Name = "stlbAction";
-            this.stlbAction.Size = new System.Drawing.Size(305, 17);
+            this.stlbAction.Size = new System.Drawing.Size(386, 20);
             this.stlbAction.Text = "Escriba url y haga clic en Cargar contenido para empezar";
             // 
             // stpbProgress
             // 
             this.stpbProgress.Name = "stpbProgress";
-            this.stpbProgress.Size = new System.Drawing.Size(100, 16);
+            this.stpbProgress.Size = new System.Drawing.Size(100, 18);
             this.stpbProgress.Visible = false;
             // 
             // mainLayout
@@ -295,7 +296,7 @@ namespace Channel9Downloader
             this.lbChannelLang.AutoSize = true;
             this.lbChannelLang.Location = new System.Drawing.Point(546, 19);
             this.lbChannelLang.Name = "lbChannelLang";
-            this.lbChannelLang.Size = new System.Drawing.Size(55, 16);
+            this.lbChannelLang.Size = new System.Drawing.Size(67, 19);
             this.lbChannelLang.TabIndex = 27;
             this.lbChannelLang.Text = "Lenguaje";
             // 
@@ -304,7 +305,7 @@ namespace Channel9Downloader
             this.lbChannelTotalMedia.AutoSize = true;
             this.lbChannelTotalMedia.Location = new System.Drawing.Point(546, 38);
             this.lbChannelTotalMedia.Name = "lbChannelTotalMedia";
-            this.lbChannelTotalMedia.Size = new System.Drawing.Size(89, 16);
+            this.lbChannelTotalMedia.Size = new System.Drawing.Size(114, 19);
             this.lbChannelTotalMedia.TabIndex = 28;
             this.lbChannelTotalMedia.Text = "Total de medios";
             // 
@@ -313,7 +314,7 @@ namespace Channel9Downloader
             this.lbChannelPubDate.AutoSize = true;
             this.lbChannelPubDate.Location = new System.Drawing.Point(546, 0);
             this.lbChannelPubDate.Name = "lbChannelPubDate";
-            this.lbChannelPubDate.Size = new System.Drawing.Size(60, 16);
+            this.lbChannelPubDate.Size = new System.Drawing.Size(73, 19);
             this.lbChannelPubDate.TabIndex = 26;
             this.lbChannelPubDate.Text = "Publicado";
             // 
@@ -323,7 +324,7 @@ namespace Channel9Downloader
             this.lbChannelTitle.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbChannelTitle.Location = new System.Drawing.Point(184, 0);
             this.lbChannelTitle.Name = "lbChannelTitle";
-            this.lbChannelTitle.Size = new System.Drawing.Size(54, 19);
+            this.lbChannelTitle.Size = new System.Drawing.Size(66, 19);
             this.lbChannelTitle.TabIndex = 22;
             this.lbChannelTitle.Text = "Título";
             // 
@@ -332,7 +333,7 @@ namespace Channel9Downloader
             this.lbChannelUrl.AutoSize = true;
             this.lbChannelUrl.Location = new System.Drawing.Point(184, 19);
             this.lbChannelUrl.Name = "lbChannelUrl";
-            this.lbChannelUrl.Size = new System.Drawing.Size(41, 16);
+            this.lbChannelUrl.Size = new System.Drawing.Size(50, 19);
             this.lbChannelUrl.TabIndex = 23;
             this.lbChannelUrl.TabStop = true;
             this.lbChannelUrl.Text = "Enlace";
@@ -343,7 +344,7 @@ namespace Channel9Downloader
             this.lbChannelAuthor.AutoSize = true;
             this.lbChannelAuthor.Location = new System.Drawing.Point(184, 38);
             this.lbChannelAuthor.Name = "lbChannelAuthor";
-            this.lbChannelAuthor.Size = new System.Drawing.Size(37, 16);
+            this.lbChannelAuthor.Size = new System.Drawing.Size(46, 19);
             this.lbChannelAuthor.TabIndex = 24;
             this.lbChannelAuthor.Text = "Autor";
             // 
@@ -352,7 +353,7 @@ namespace Channel9Downloader
             this.lbChannelEmail.AutoSize = true;
             this.lbChannelEmail.Location = new System.Drawing.Point(184, 57);
             this.lbChannelEmail.Name = "lbChannelEmail";
-            this.lbChannelEmail.Size = new System.Drawing.Size(35, 16);
+            this.lbChannelEmail.Size = new System.Drawing.Size(42, 19);
             this.lbChannelEmail.TabIndex = 25;
             this.lbChannelEmail.Text = "Email";
             // 
@@ -361,7 +362,7 @@ namespace Channel9Downloader
             this.lbChannelCategory.AutoSize = true;
             this.lbChannelCategory.Location = new System.Drawing.Point(184, 76);
             this.lbChannelCategory.Name = "lbChannelCategory";
-            this.lbChannelCategory.Size = new System.Drawing.Size(58, 16);
+            this.lbChannelCategory.Size = new System.Drawing.Size(73, 20);
             this.lbChannelCategory.TabIndex = 29;
             this.lbChannelCategory.Text = "Categoría";
             // 
@@ -398,7 +399,7 @@ namespace Channel9Downloader
             this.label5.Font = new System.Drawing.Font("Segoe UI Variable Display", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.Location = new System.Drawing.Point(3, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(171, 28);
+            this.label5.Size = new System.Drawing.Size(218, 36);
             this.label5.TabIndex = 14;
             this.label5.Text = "Detalles del canal";
             // 
@@ -439,7 +440,7 @@ namespace Channel9Downloader
             this.label3.Font = new System.Drawing.Font("Segoe UI Variable Display", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(3, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(307, 26);
+            this.label3.Size = new System.Drawing.Size(394, 26);
             this.label3.TabIndex = 19;
             this.label3.Text = "Detalles del medio seleccionado";
             // 
@@ -476,7 +477,7 @@ namespace Channel9Downloader
             this.lbSelectedCreator.AutoSize = true;
             this.lbSelectedCreator.Location = new System.Drawing.Point(3, 185);
             this.lbSelectedCreator.Name = "lbSelectedCreator";
-            this.lbSelectedCreator.Size = new System.Drawing.Size(49, 16);
+            this.lbSelectedCreator.Size = new System.Drawing.Size(63, 20);
             this.lbSelectedCreator.TabIndex = 36;
             this.lbSelectedCreator.Text = "Creador";
             // 
@@ -499,7 +500,7 @@ namespace Channel9Downloader
             this.lbSelectedComment.AutoSize = true;
             this.lbSelectedComment.Location = new System.Drawing.Point(3, 111);
             this.lbSelectedComment.Name = "lbSelectedComment";
-            this.lbSelectedComment.Size = new System.Drawing.Size(69, 16);
+            this.lbSelectedComment.Size = new System.Drawing.Size(87, 20);
             this.lbSelectedComment.TabIndex = 34;
             this.lbSelectedComment.Text = "Comentario";
             // 
@@ -508,7 +509,7 @@ namespace Channel9Downloader
             this.lbSelectedAuthor.AutoSize = true;
             this.lbSelectedAuthor.Location = new System.Drawing.Point(3, 148);
             this.lbSelectedAuthor.Name = "lbSelectedAuthor";
-            this.lbSelectedAuthor.Size = new System.Drawing.Size(37, 16);
+            this.lbSelectedAuthor.Size = new System.Drawing.Size(46, 20);
             this.lbSelectedAuthor.TabIndex = 35;
             this.lbSelectedAuthor.Text = "Autor";
             // 
@@ -517,7 +518,7 @@ namespace Channel9Downloader
             this.lbSelectedLink.AutoSize = true;
             this.lbSelectedLink.Location = new System.Drawing.Point(3, 222);
             this.lbSelectedLink.Name = "lbSelectedLink";
-            this.lbSelectedLink.Size = new System.Drawing.Size(41, 16);
+            this.lbSelectedLink.Size = new System.Drawing.Size(50, 20);
             this.lbSelectedLink.TabIndex = 37;
             this.lbSelectedLink.TabStop = true;
             this.lbSelectedLink.Text = "Enlace";
@@ -528,7 +529,7 @@ namespace Channel9Downloader
             this.lbSelectedGuid.AutoSize = true;
             this.lbSelectedGuid.Location = new System.Drawing.Point(3, 259);
             this.lbSelectedGuid.Name = "lbSelectedGuid";
-            this.lbSelectedGuid.Size = new System.Drawing.Size(32, 16);
+            this.lbSelectedGuid.Size = new System.Drawing.Size(40, 20);
             this.lbSelectedGuid.TabIndex = 38;
             this.lbSelectedGuid.Text = "Guid";
             // 
@@ -538,7 +539,7 @@ namespace Channel9Downloader
             this.lbSelectedTitle.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbSelectedTitle.Location = new System.Drawing.Point(3, 0);
             this.lbSelectedTitle.Name = "lbSelectedTitle";
-            this.lbSelectedTitle.Size = new System.Drawing.Size(54, 21);
+            this.lbSelectedTitle.Size = new System.Drawing.Size(66, 27);
             this.lbSelectedTitle.TabIndex = 23;
             this.lbSelectedTitle.Text = "Título";
             // 
@@ -582,7 +583,7 @@ namespace Channel9Downloader
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(3, 158);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 15);
+            this.label9.Size = new System.Drawing.Size(66, 15);
             this.label9.TabIndex = 22;
             this.label9.Text = "Archivos";
             // 
@@ -595,7 +596,7 @@ namespace Channel9Downloader
             this.cbSelectedMediaFiles.FormattingEnabled = true;
             this.cbSelectedMediaFiles.Location = new System.Drawing.Point(3, 176);
             this.cbSelectedMediaFiles.Name = "cbSelectedMediaFiles";
-            this.cbSelectedMediaFiles.Size = new System.Drawing.Size(144, 24);
+            this.cbSelectedMediaFiles.Size = new System.Drawing.Size(144, 28);
             this.cbSelectedMediaFiles.TabIndex = 23;
             this.cbSelectedMediaFiles.SelectedIndexChanged += new System.EventHandler(this.cbSelectedMediaFiles_SelectedIndexChanged);
             // 
@@ -649,7 +650,7 @@ namespace Channel9Downloader
             this.label6.Font = new System.Drawing.Font("Segoe UI Variable Display", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.Location = new System.Drawing.Point(3, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(177, 27);
+            this.label6.Size = new System.Drawing.Size(142, 27);
             this.label6.TabIndex = 18;
             this.label6.Text = "Listado de medios";
             // 
@@ -659,10 +660,10 @@ namespace Channel9Downloader
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbxContentMedia.FormattingEnabled = true;
-            this.lbxContentMedia.ItemHeight = 16;
+            this.lbxContentMedia.ItemHeight = 20;
             this.lbxContentMedia.Location = new System.Drawing.Point(3, 30);
             this.lbxContentMedia.Name = "lbxContentMedia";
-            this.lbxContentMedia.Size = new System.Drawing.Size(217, 292);
+            this.lbxContentMedia.Size = new System.Drawing.Size(217, 284);
             this.lbxContentMedia.TabIndex = 21;
             this.lbxContentMedia.SelectedIndexChanged += new System.EventHandler(this.lbxContentMedia_SelectedIndexChanged);
             // 
@@ -693,7 +694,7 @@ namespace Channel9Downloader
             this.label8.Font = new System.Drawing.Font("Segoe UI Variable Display", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.Location = new System.Drawing.Point(3, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(188, 28);
+            this.label8.Size = new System.Drawing.Size(133, 32);
             this.label8.TabIndex = 19;
             this.label8.Text = "Listado a descargar";
             // 
@@ -703,10 +704,10 @@ namespace Channel9Downloader
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbxContentToDownload.FormattingEnabled = true;
-            this.lbxContentToDownload.ItemHeight = 16;
+            this.lbxContentToDownload.ItemHeight = 20;
             this.lbxContentToDownload.Location = new System.Drawing.Point(3, 35);
             this.lbxContentToDownload.Name = "lbxContentToDownload";
-            this.lbxContentToDownload.Size = new System.Drawing.Size(219, 228);
+            this.lbxContentToDownload.Size = new System.Drawing.Size(219, 224);
             this.lbxContentToDownload.TabIndex = 22;
             this.lbxContentToDownload.SelectedIndexChanged += new System.EventHandler(this.lbxContentToDownload_SelectedIndexChanged);
             // 
@@ -758,13 +759,13 @@ namespace Channel9Downloader
             this.lbTotalDownloadSize.AutoSize = true;
             this.lbTotalDownloadSize.Location = new System.Drawing.Point(3, 274);
             this.lbTotalDownloadSize.Name = "lbTotalDownloadSize";
-            this.lbTotalDownloadSize.Size = new System.Drawing.Size(97, 16);
+            this.lbTotalDownloadSize.Size = new System.Drawing.Size(123, 20);
             this.lbTotalDownloadSize.TabIndex = 24;
             this.lbTotalDownloadSize.Text = "Total a descargar:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(945, 623);
             this.Controls.Add(this.statusStrip1);
