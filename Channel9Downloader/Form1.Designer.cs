@@ -137,7 +137,7 @@ namespace Channel9Downloader
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtUrl.Location = new System.Drawing.Point(106, 92);
             this.txtUrl.Name = "txtUrl";
-            this.txtUrl.PlaceholderText = "Example: https://s.ch9.ms/Series/Beginners-Series-to-Blazor/rss";
+            this.txtUrl.PlaceholderText = "Example: https://s.ch9.ms/Series/Beginners-Series-to-Blazor";
             this.txtUrl.Size = new System.Drawing.Size(703, 23);
             this.txtUrl.TabIndex = 4;
             // 
